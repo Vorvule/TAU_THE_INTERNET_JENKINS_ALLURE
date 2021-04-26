@@ -37,7 +37,7 @@
                     <include name="testMenuListSize"/>
                 </methods>
             </class>
-            <class name="homework.Task3_SliderTests">
+            <class name="keys.HorizontalSliderTests_Task3">
                 <methods>
                     <include name="testSlider"/>
                 </methods>

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HomePage {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -85,7 +85,10 @@ public class HomePage {
         return new EntryAdPage(driver);
     }
 
-
+    public ForgotPasswordPage clickForgotPasswordPageLink() {
+        clickLink("Forgot Password").click();
+        return new ForgotPasswordPage(driver);
+    }
 
 
     public String getTitle() {

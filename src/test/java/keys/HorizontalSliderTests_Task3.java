@@ -1,11 +1,11 @@
-package homework;
+package keys;
 
 import base.BaseTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HorizontalSliderPage;
 
-public class Task3_SliderTests extends BaseTests {
+public class HorizontalSliderTests_Task3 extends BaseTests {
 
     @Test
     public void testSlider() {
