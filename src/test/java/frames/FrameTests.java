@@ -16,7 +16,7 @@ public class FrameTests extends BaseTests {
         String text2 = "world!";
 
         wysiwygEditorPage.setTextArea(text1);
-        wysiwygEditorPage.decreaseIndentation();
+        wysiwygEditorPage.increaseIndentation();
         wysiwygEditorPage.setTextArea(text2);
 
         Assert.assertEquals(wysiwygEditorPage.getTextFromEditor(), text1 + text2, "Text is wrong");

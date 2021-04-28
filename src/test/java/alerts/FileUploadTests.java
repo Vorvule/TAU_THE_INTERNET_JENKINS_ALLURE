@@ -10,7 +10,8 @@ public class FileUploadTests extends BaseTests {
     @Test
     public void testFileUpload() {
         FileUploadPage fileUploadPage = homePage.clickFileUpload();
-        fileUploadPage.uploadFile("C:/Users/USER/Google Drive/TAU_THE_INTERNET/src/test/resources/chromedriver.exe");
+        fileUploadPage.uploadFile
+                ("C:/Users/USER/Google Drive/TAU_THE_INTERNET/src/test/resources/chromedriver.exe");
         // iOS: assert equals just "chromedriver"
         Assert.assertEquals(fileUploadPage.getUploadFiles(), "chromedriver.exe", "Wrong upload");
     }

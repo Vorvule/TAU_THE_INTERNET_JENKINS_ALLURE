@@ -40,4 +40,9 @@ public class HomePageNew {
         clickLink("JavaScript Alerts").click();
         return new AlertsPageNew(driver);
     }
+
+    public EntryAdPageNew clickEntryAd() {
+        clickLink("Entry Ad").click();
+        return new EntryAdPageNew(driver);
+    }
 }

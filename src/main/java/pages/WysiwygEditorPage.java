@@ -33,7 +33,7 @@ public class WysiwygEditorPage {
         return text;
     }
 
-    public void decreaseIndentation() {
+    public void increaseIndentation() {
         driver.findElement(increaseIndentButton).click();
     }
 
