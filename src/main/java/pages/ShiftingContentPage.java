@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class ShiftingContentPage {
 
-    private WebDriver driver;
-    private By menu1 = By.linkText("Example 1: Menu Element");
+    private final WebDriver driver;
+    private final By menu1 = By.linkText("Example 1: Menu Element");
 
 
     public ShiftingContentPage(WebDriver driver) {

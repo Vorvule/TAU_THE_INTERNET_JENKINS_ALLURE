@@ -8,8 +8,8 @@ import java.util.List;
 
 public class Example1Page {
 
-    private WebDriver driver;
-    private By menuItems = By.tagName("li");
+    private final WebDriver driver;
+    private final By menuItems = By.tagName("li");
 
     public  Example1Page(WebDriver driver) {
         this.driver = driver;

@@ -18,7 +18,6 @@ import java.io.IOException;
 public class BaseTestsNew {
     private EventFiringWebDriver driver;
 
-    private String link = "http://the-internet.herokuapp.com/";
     protected HomePage homePageNew;
 
     @BeforeClass
@@ -36,6 +35,7 @@ public class BaseTestsNew {
 
     @BeforeMethod
     public void goHome() {
+        String link = "http://the-internet.herokuapp.com/";
         driver.get(link);
     }
 
@@ -49,7 +49,7 @@ public class BaseTestsNew {
     }
 
     public void takeScreenshot(ITestResult result) throws IOException {
-        TakesScreenshot camera = (TakesScreenshot) driver;
+        TakesScreenshot camera = driver;
         File screenshot = camera.getScreenshotAs(OutputType.FILE);
         // System.out.println(screenshot.getAbsolutePath());
 

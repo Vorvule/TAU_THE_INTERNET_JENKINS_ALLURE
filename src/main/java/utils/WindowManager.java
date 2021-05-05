@@ -5,8 +5,8 @@ import java.util.Set;
 
 public class WindowManager {
 
-    private WebDriver driver;
-    private WebDriver.Navigation navigate;
+    private final WebDriver driver;
+    private final WebDriver.Navigation navigate;
 
     public WindowManager(WebDriver driver) {
         this.driver = driver;

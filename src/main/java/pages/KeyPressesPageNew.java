@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 
 public class KeyPressesPageNew {
 
-    private WebDriver driver;
-    private By target = By.id("target");
-    private By result = By.id("result");
+    private final WebDriver driver;
+    private final By target = By.id("target");
+    private final By result = By.id("result");
 
     public KeyPressesPageNew(WebDriver driver) {
         this.driver = driver;

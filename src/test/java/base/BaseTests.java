@@ -25,7 +25,6 @@ public class BaseTests {
     // private EventFiringWebDriver driver;
 
     protected HomePage homePage;
-    private String link = "http://the-internet.herokuapp.com/";
 
     @BeforeClass
     public void setUp() throws InterruptedException {
@@ -59,6 +58,7 @@ public class BaseTests {
 
     @BeforeMethod
     public void goHome() {
+        String link = "http://the-internet.herokuapp.com/";
         driver.get(link);
     }
 

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class FileUploadPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     private final By inputField    = By.id("file-upload");
     private final By uploadButton  = By.id("file-submit");

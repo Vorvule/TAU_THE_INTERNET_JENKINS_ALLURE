@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class WysiwygEditorPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     private final By editArea = By.id("tinymce");
     private final By increaseIndentButton = By.xpath(".//button[@title='Increase indent']");
