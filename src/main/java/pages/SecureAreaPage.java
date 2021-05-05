@@ -5,14 +5,14 @@ import org.openqa.selenium.WebDriver;
 
 public class SecureAreaPage {
 
-    private WebDriver driver;
-    private By statusAlert = By.id("flash");
+    private final WebDriver driver;
+    private final By flashMessage = By.id("flash");
 
     public SecureAreaPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public String getAlertText() {
-        return driver.findElement(statusAlert).getText();
+    public String getFlashMessage() {
+        return driver.findElement(flashMessage).getText();
     }
 }

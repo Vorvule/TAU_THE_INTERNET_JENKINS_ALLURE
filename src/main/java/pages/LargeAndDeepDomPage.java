@@ -7,19 +7,18 @@ import org.openqa.selenium.WebElement;
 
 public class LargeAndDeepDomPage {
 
-    private WebDriver driver;
-    private By table = By.id("large-table");
+    private final WebDriver driver;
+    private final By largeTable = By.id("large-table");
 
     public LargeAndDeepDomPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public void scrollToTable() {
-        WebElement tableElement = driver.findElement(table);
-        // tableElement. => no method available
+        WebElement tableElement = driver.findElement(largeTable);
+        // arguments[0] is a placeholder for the tableElement we can't use
         String script = "arguments[0].scrollIntoView()";
-        // arguments[0] is a tableElement's placeholder cause we can't use it
-        ((JavascriptExecutor) driver).executeScript(script, tableElement);
         // tableElement replaces placeholder arguments[0]
+        ((JavascriptExecutor) driver).executeScript(script, tableElement);
     }
 }

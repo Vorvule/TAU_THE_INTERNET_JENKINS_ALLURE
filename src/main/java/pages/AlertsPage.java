@@ -5,29 +5,28 @@ import org.openqa.selenium.WebDriver;
 
 public class AlertsPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
-    private By triggerAlertButton = By.xpath(".//button[text()=\"Click for JS Alert\"]");
-    private By results = By.id("result");
-
-    private By triggerConfirmButton = By.xpath(".//button[text()=\"Click for JS Confirm\"]");
-    private By triggerPromptButton = By.xpath(".//button[text()=\"Click for JS Prompt\"]");
+    private final By alertButton   = By.xpath(".//button[text()='Click for JS Alert']");
+    private final By confirmButton = By.xpath(".//button[text()='Click for JS Confirm']");
+    private final By promptButton  = By.xpath(".//button[text()='Click for JS Prompt']");
+    private final By results = By.id("result");
 
     public AlertsPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public void triggerAlert() {
-        driver.findElement(triggerAlertButton).click();
+        driver.findElement(alertButton).click();
     }
     public void triggerConfirm() {
-        driver.findElement(triggerConfirmButton).click();
+        driver.findElement(confirmButton).click();
     }
     public void triggerPrompt() {
-        driver.findElement(triggerPromptButton).click();
+        driver.findElement(promptButton).click();
     }
 
-    // for Alerts and Confirms
+    // for all the Alerts, Confirms and Prompts
     public void acceptPopup() {
         driver.switchTo().alert().accept();
     }
@@ -35,7 +34,7 @@ public class AlertsPage {
         driver.switchTo().alert().dismiss();
     }
 
-    public String getResult() {
+    public String getResultText() {
         return driver.findElement(results).getText();
     }
     public String getConfirmText() {

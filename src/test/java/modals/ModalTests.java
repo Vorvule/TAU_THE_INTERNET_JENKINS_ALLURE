@@ -12,7 +12,7 @@ public class ModalTests extends BaseTests {
         EntryAdPage entryAdPage = homePage.clickEntryAd();
         String modalTitle = entryAdPage.getModalTitle();
         Assert.assertEquals(modalTitle, "THIS IS A MODAL WINDOW", "Wrong modal title");
-        System.out.println(entryAdPage.getHeader());
+        System.out.println(entryAdPage.getModalHeader());
         entryAdPage.closeModal();
     }
 }

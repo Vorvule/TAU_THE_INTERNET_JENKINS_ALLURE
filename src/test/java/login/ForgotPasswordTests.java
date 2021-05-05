@@ -9,7 +9,7 @@ public class ForgotPasswordTests extends BaseTests {
 
     @Test
     public void testForgotPasswordMessage() {
-        ForgotPasswordPage forgotPasswordPage = homePage.clickForgotPasswordPageLink();
+        ForgotPasswordPage forgotPasswordPage = homePage.clickForgotPassword();
         Assert.assertEquals(forgotPasswordPage.retrievePassword().getMessageText(), "Internal Server Error",
                 "Wrong error message");
     }

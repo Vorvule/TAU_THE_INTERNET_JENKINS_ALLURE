@@ -13,9 +13,9 @@ import java.time.Duration;
 
 public class DynamicLoadingPage {
 
-    private WebDriver driver;
-    private By example1Link = By.xpath(".//a[contains(text(), \"Example 1\")]");
-    private By example2Link = By.xpath(".//a[contains(text(), \"Example 2\")]");
+    private final WebDriver driver;
+    private final By example1Link = By.xpath(".//a[contains(text(), \"Example 1\")]");
+    private final By example2Link = By.xpath(".//a[contains(text(), \"Example 2\")]");
 
     public DynamicLoadingPage(WebDriver driver) {
         this.driver = driver;
@@ -32,8 +32,8 @@ public class DynamicLoadingPage {
     }
 
 
-    // ctrl click test
-    private By startButton = By.cssSelector("#start button");
+    // ctrl+click test
+    private final By startButton = By.cssSelector("#start button");
     public void ctrllickExample2Link() {
         Actions actions = new Actions(driver);
         actions.keyDown(Keys.LEFT_CONTROL).click(driver.findElement(example2Link)).perform();
@@ -43,24 +43,26 @@ public class DynamicLoadingPage {
     }
 
 
-    public class Example1Page {
+    public static class Example1Page {
 
-        private WebDriver driver;
-        private By startButton = By.cssSelector("#start button");
-        private By loadingIndicator = By.id("loading");
-        private By loadedText = By.id("finish");
+        private final WebDriver driver;
+        private final By startButton = By.cssSelector("#start button");
+        private final By loadingIndicator = By.id("loading");
+        private final By loadedText = By.id("finish");
 
         public Example1Page(WebDriver driver) {
             this.driver = driver;
         }
 
+        // loadedText element is present but hidden, may be checked immediately
         public void clickStartButton() {
             driver.findElement(startButton).click();
+
             /*
             WebDriverWait webDriverWait = new WebDriverWait(driver, 5);
             webDriverWait.until(ExpectedConditions.invisibilityOf(driver.findElement(loadingIndicator)));
             */
-            // fluent wait
+
             FluentWait wait = new FluentWait(driver)
                     .withTimeout(Duration.ofSeconds(5))
                     .pollingEvery(Duration.ofSeconds(1))
@@ -74,17 +76,17 @@ public class DynamicLoadingPage {
     }
 
 
-    public class Example2Page {
+    public static class Example2Page {
 
-        private WebDriver driver;
-        private By startButton = By.cssSelector("#start button");
-        private By loadingIndicator = By.id("loading");
-        private By loadedText = By.id("finish");
+        private final WebDriver driver;
+        private final By startButton = By.cssSelector("#start button");
+        private final By loadedText = By.id("finish");
 
         public Example2Page(WebDriver driver) {
             this.driver = driver;
         }
 
+        // loadedText element is absent, may not be checked immediately because it needs time to appear
         public void clickStartButton() {
             driver.findElement(startButton).click();
             WebDriverWait webDriverWait = new WebDriverWait(driver, 5);

@@ -6,16 +6,18 @@ import pages.LargeAndDeepDomPage;
 
 public class JavaScripTests extends BaseTests {
 
+    // DOM element is present
     @Test
     public void testScrollToTable() {
+        // homePage.clickLargeAndDeepDom().scrollToTable();
         LargeAndDeepDomPage largeAndDeepDomPage = homePage.clickLargeAndDeepDom();
         largeAndDeepDomPage.scrollToTable();
-        // homePage.clickLargeAndDeepDom().scrollToTable();
     }
 
+    // DOM element is absent
     @Test
     public void testScrollToFifthParagraph() {
-        homePage.clickInfiniteScroll().scrollToParagraph(5);
         // make a breakpoint inside of this method
+        homePage.clickInfiniteScroll().scrollToTextBlock(5);
     }
 }

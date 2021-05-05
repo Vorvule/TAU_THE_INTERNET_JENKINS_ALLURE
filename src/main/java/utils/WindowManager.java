@@ -1,7 +1,6 @@
 package utils;
 
 import org.openqa.selenium.WebDriver;
-
 import java.util.Set;
 
 public class WindowManager {
@@ -11,7 +10,7 @@ public class WindowManager {
 
     public WindowManager(WebDriver driver) {
         this.driver = driver;
-        navigate = driver.navigate();
+        navigate = driver.navigate(); // code simplification
     }
 
     public void goBack() {

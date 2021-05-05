@@ -11,24 +11,24 @@ public class KeysTests extends BaseTests {
 
     @Test
     public void testBackspace() {
-        KeyPressesPage keyPage = homePage.clickKeyPresses();
-        keyPage.enterText("A" + Keys.BACK_SPACE);
-        assertEquals(keyPage.getResult(), "You entered: BACK_SPACE");
+        KeyPressesPage keyPressesPage = homePage.clickKeyPresses();
+        keyPressesPage.enterText("A" + Keys.BACK_SPACE);
+        assertEquals(keyPressesPage.getResult(), "You entered: BACK_SPACE");
+    }
+
+    @Test
+    public void testChords() {
+        KeyPressesPage keyPressesPage = homePage.clickKeyPresses();
+        keyPressesPage.enterText("Hello!");
+        keyPressesPage.enterText(Keys.chord(Keys.CONTROL, "z"));
+        assertEquals(keyPressesPage.getResult(), "You entered: Z");
+        assertEquals(keyPressesPage.getInputValue(), "Hello");
     }
 
     @Test
     public void testPi() {
         KeyPressesPage keyPage = homePage.clickKeyPresses();
         keyPage.enterPi();
-    }
-
-    @Test
-    public void testUndo() {
-        KeyPressesPage keyPage = homePage.clickKeyPresses();
-        keyPage.enterText("Hello!");
-        keyPage.enterText(Keys.chord(Keys.CONTROL, "z"));
-        assertEquals(keyPage.getResult(), "You entered: Z");
-        assertEquals(keyPage.getInputValue(), "Hello");
     }
 
 }

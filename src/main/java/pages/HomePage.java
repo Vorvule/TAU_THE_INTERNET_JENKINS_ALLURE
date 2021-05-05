@@ -85,9 +85,14 @@ public class HomePage {
         return new EntryAdPage(driver);
     }
 
-    public ForgotPasswordPage clickForgotPasswordPageLink() {
+    public ForgotPasswordPage clickForgotPassword() {
         clickLink("Forgot Password").click();
         return new ForgotPasswordPage(driver);
+    }
+
+    public FramesPage clickFrames() {
+        clickLink("Frames").click();
+        return new FramesPage(driver);
     }
 
 

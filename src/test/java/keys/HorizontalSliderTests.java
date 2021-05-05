@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HorizontalSliderPage;
 
-public class HorizontalSliderTests_Task3 extends BaseTests {
+public class HorizontalSliderTests extends BaseTests {
 
     @Test
     public void testSlider() {

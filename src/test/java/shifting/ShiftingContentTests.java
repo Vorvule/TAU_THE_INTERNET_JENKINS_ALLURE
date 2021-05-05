@@ -1,4 +1,4 @@
-package homework;
+package shifting;
 
 import base.BaseTests;
 import org.testng.Assert;
@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pages.Example1Page;
 import pages.ShiftingContentPage;
 
-public class Task1_ShiftingContentTests extends BaseTests {
+public class ShiftingContentTests extends BaseTests {
 
     @Test
     public void testMenuListSize() {

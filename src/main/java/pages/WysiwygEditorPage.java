@@ -6,38 +6,39 @@ import org.openqa.selenium.WebDriver;
 public class WysiwygEditorPage {
 
     private WebDriver driver;
-    private String editorIframeId = "mce_0_ifr";
-    private By textArea = By.id("tinymce");
-    private By increaseIndentButton = By.xpath(".//button[@title=\"Increase indent\"]");
+
+    private final By editArea = By.id("tinymce");
+    private final By increaseIndentButton = By.xpath(".//button[@title='Increase indent']");
 
     public WysiwygEditorPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public void clearTextArea() {
+    public void clearEditArea() {
         switchToEditArea();
-        driver.findElement(textArea).clear();
+        driver.findElement(editArea).clear();
         switchToMainArea();
     }
 
-    public void setTextArea(String text) {
+    public void setEditAreaText(String text) {
         switchToEditArea();
-        driver.findElement(textArea).sendKeys(text);
+        driver.findElement(editArea).sendKeys(text);
         switchToMainArea();
     }
 
-    public String getTextFromEditor() {
+    public String getEditAreaText() {
         switchToEditArea();
-        String text = driver.findElement(textArea).getText();
+        String text = driver.findElement(editArea).getText();
         switchToMainArea();
         return text;
     }
 
-    public void increaseIndentation() {
+    public void increaseIndent() {
         driver.findElement(increaseIndentButton).click();
     }
 
     private void switchToEditArea() {
+        String editorIframeId = "mce_0_ifr";
         driver.switchTo().frame(editorIframeId);
     }
 
