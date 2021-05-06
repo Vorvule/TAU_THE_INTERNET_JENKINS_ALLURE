@@ -39,6 +39,8 @@ public class DynamicLoadingPage {
     }
 
     public Boolean checkStartButtonPresence() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.presenceOfElementLocated(startButton));
         return driver.findElement(startButton).isDisplayed();
     }
 

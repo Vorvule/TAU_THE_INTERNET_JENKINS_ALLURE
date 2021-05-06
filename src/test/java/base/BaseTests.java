@@ -96,7 +96,7 @@ public class BaseTests {
     private ChromeOptions getChromeOptions() {
         return new ChromeOptions()
                 .setExperimentalOption("excludeSwitches", new String[]{"enable-automation"})
-                //.setHeadless(true)
+                .setHeadless(true)
                 ;
     }
 

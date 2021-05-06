@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="Ready for Jenkins" />
+    <list default="true" id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="Ready for Jenkins fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +54,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NavigationTests.testCtrlClick">
+  <component name="RunManager" selected="TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)">
     <configuration name="AlertTests.testTextFromConfirm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAU_THE_INTERNET" />
       <extension name="coverage">
@@ -134,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NavigationTests.testCtrlClick" />
         <item itemvalue="TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)" />
+        <item itemvalue="TestNG.NavigationTests.testCtrlClick" />
         <item itemvalue="TestNG.AlertTests.testTextFromConfirm" />
         <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
         <item itemvalue="TestNG.NavigationTests.testNavigator" />
@@ -228,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620332601694</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ready for Jenkins fixed">
+      <created>1620332860388</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620332860388</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +275,8 @@
     <MESSAGE value="Refined and completed for TestNG run" />
     <MESSAGE value="Final modifier added" />
     <MESSAGE value="Ready for Jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready for Jenkins" />
+    <MESSAGE value="Ready for Jenkins fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready for Jenkins fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
