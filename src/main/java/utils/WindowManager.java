@@ -55,5 +55,4 @@ public class WindowManager {
         int windowsQuantity = windows.size();
         driver.switchTo().window((String) windows.toArray()[windowsQuantity - 1]);
     }
-
 }

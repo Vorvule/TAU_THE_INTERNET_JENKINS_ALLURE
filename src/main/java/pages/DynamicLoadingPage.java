@@ -14,8 +14,9 @@ import java.time.Duration;
 public class DynamicLoadingPage {
 
     private final WebDriver driver;
-    private final By example1Link = By.xpath(".//a[contains(text(), \"Example 1\")]");
-    private final By example2Link = By.xpath(".//a[contains(text(), \"Example 2\")]");
+    private final By example1Link = By.linkText("Example 1: Element on page that is hidden");
+    private final By example2Link = By.linkText("Example 2: Element rendered after the fact");
+    private final By startButton = By.cssSelector("#start button");
 
     public DynamicLoadingPage(WebDriver driver) {
         this.driver = driver;
@@ -32,12 +33,11 @@ public class DynamicLoadingPage {
     }
 
 
-    // ctrl+click test
-    private final By startButton = By.cssSelector("#start button");
-    public void ctrllickExample2Link() {
+    public void ctrlClickExample2Link() {
         Actions actions = new Actions(driver);
         actions.keyDown(Keys.LEFT_CONTROL).click(driver.findElement(example2Link)).perform();
     }
+
     public Boolean checkStartButtonPresence() {
         return driver.findElement(startButton).isDisplayed();
     }

@@ -1,7 +1,6 @@
 package navigation;
 
 import base.BaseTests;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DynamicLoadingPage;
@@ -28,7 +27,7 @@ public class NavigationTests extends BaseTests {
     @Test
     public void testCtrlClick() {
         DynamicLoadingPage dynamicLoadingPage = homePage.clickDynamicLoading();
-        dynamicLoadingPage.ctrllickExample2Link();
+        dynamicLoadingPage.ctrlClickExample2Link();
 
         getWindowManager().switchToLastTab();
         Assert.assertTrue(dynamicLoadingPage.checkStartButtonPresence());

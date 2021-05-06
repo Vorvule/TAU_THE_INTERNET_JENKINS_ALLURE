@@ -30,7 +30,7 @@ public class BaseTests {
     public void setUp() throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(getChromeOptions());
 
         // driver = new EventFiringWebDriver(new ChromeDriver());
         // driver.register(new EventReporter());
@@ -94,11 +94,10 @@ public class BaseTests {
     }
 
     private ChromeOptions getChromeOptions() {
-        ChromeOptions options = new ChromeOptions();
-        // options.addArguments("disable-infobars");
-        options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-        // options.setHeadless(true);
-        return options;
+        return new ChromeOptions()
+                .setExperimentalOption("excludeSwitches", new String[]{"enable-automation"})
+                //.setHeadless(true)
+                ;
     }
 
     private void setCooKie() {
@@ -106,5 +105,9 @@ public class BaseTests {
                 .domain("the-internet.herokuapp.com")
                 .build();
         driver.manage().addCookie(cookie);
+        driver.manage().deleteCookieNamed("optimizelyBuckets");
     }
+
+
+
 }

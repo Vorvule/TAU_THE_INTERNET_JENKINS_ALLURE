@@ -1,9 +1,9 @@
 package alerts;
 
 import base.BaseTests;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AlertsPage;
+import static org.testng.Assert.*;
 
 public class AlertTests extends BaseTests {
 
@@ -12,7 +12,7 @@ public class AlertTests extends BaseTests {
         AlertsPage alertsPage = homePage.clickJavaScriptAlerts();
         alertsPage.triggerAlert();
         alertsPage.acceptPopup();
-        Assert.assertEquals(alertsPage.getResultText(), "You successfully clicked an alert", "You unsuccessfully clicked an alert");
+        assertEquals(alertsPage.getResultText(), "You successfully clicked an alert", "You unsuccessfully clicked an alert");
     }
 
     @Test
@@ -21,8 +21,8 @@ public class AlertTests extends BaseTests {
         alertsPage.triggerConfirm();
         String text = alertsPage.getConfirmText();
         alertsPage.dismissPopup();
-        Assert.assertEquals(text, "I am a JS Confirm", "Confirm text is wrong");
-        Assert.assertEquals(alertsPage.getResultText(), "You clicked: Cancel", "Wrong confirm text");
+        assertEquals(text, "I am a JS Confirm", "Confirm text is wrong");
+        assertEquals(alertsPage.getResultText(), "You clicked: Cancel", "Wrong confirm text");
     }
 
     @Test
@@ -32,6 +32,6 @@ public class AlertTests extends BaseTests {
         String text = "Hey there!";
         alertsPage.setPromptInput(text);
         alertsPage.acceptPopup();
-        Assert.assertEquals(alertsPage.getResultText(), "You entered: " + text, "Text is wrong");
+        assertEquals(alertsPage.getResultText(), "You entered: " + text, "Text is wrong");
     }
 }
