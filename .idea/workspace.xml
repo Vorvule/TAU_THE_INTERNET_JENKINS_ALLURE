@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="Ready for Jenkins" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1qeLOpJpFZfGG0a2EaJOHXloCWv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IDEA/STORMNET/HomeWork_Students" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\STORMNET\TAU_THE_INTERNET_JENKINS\src\test\resources" />
+      <recent name="C:\IdeaProjects\STORMNET\TAU_THE_INTERNET_JENKINS\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base" />
+      <recent name="pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.NavigationTests.testCtrlClick">
+    <configuration name="AlertTests.testTextFromConfirm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU_THE_INTERNET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testTextFromConfirm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU_THE_INTERNET" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTests.testCtrlClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU_THE_INTERNET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+      <option name="METHOD_NAME" value="testCtrlClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTests.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU_THE_INTERNET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+      <option name="METHOD_NAME" value="testNavigator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTests.testSwitchTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAU_THE_INTERNET" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigation" />
+      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+      <option name="METHOD_NAME" value="testSwitchTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.NavigationTests.testCtrlClick" />
+        <item itemvalue="TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)" />
+        <item itemvalue="TestNG.AlertTests.testTextFromConfirm" />
+        <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
+        <item itemvalue="TestNG.NavigationTests.testNavigator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="" />
+      <created>1617435082558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617435082558</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1619182950290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619182950290</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1619456433096</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619456433096</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test methods added">
+      <created>1619456475073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619456475073</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test methods added">
+      <created>1619456570820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619456570820</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test methods added">
+      <created>1619602808970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619602808970</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test methods added too">
+      <created>1619602841958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619602841958</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Page classes changed">
+      <created>1619603705794</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619603705794</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Page classes changed">
+      <created>1619603724227</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619603724227</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refined and completed for TestNG run">
+      <created>1620218850255</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620218850255</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Final modifier added">
+      <created>1620219596489</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620219596489</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ready for Jenkins">
+      <created>1620332601694</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620332601694</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Test methods added" />
+    <MESSAGE value="Test methods added too" />
+    <MESSAGE value="Page classes changed" />
+    <MESSAGE value="Refined and completed for TestNG run" />
+    <MESSAGE value="Final modifier added" />
+    <MESSAGE value="Ready for Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready for Jenkins" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/keys/KeyTestsEventFiring.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/keys/KeyTestsEventFiring.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
