@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="Ready for Jenkins fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="Bug fixed + Headless" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620332860388</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Bug fixed + Headless">
+      <created>1620333619877</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620333619877</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +278,8 @@
     <MESSAGE value="Final modifier added" />
     <MESSAGE value="Ready for Jenkins" />
     <MESSAGE value="Ready for Jenkins fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready for Jenkins fixed" />
+    <MESSAGE value="Bug fixed + Headless" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed + Headless" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,36 +303,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/keys/KeyTestsEventFiring.java</url>
           <line>14</line>
           <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/navigation/NavigationTests.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
