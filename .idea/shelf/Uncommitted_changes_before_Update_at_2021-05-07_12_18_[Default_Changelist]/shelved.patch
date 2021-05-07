@@ -1,0 +1,2134 @@
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ /dev/null	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
+@@ -1,2 +0,0 @@
+-# Project exclude paths
+-/target/
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+deleted file mode 100644
+--- a/.idea/uiDesigner.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ /dev/null	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
+@@ -1,124 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Palette2">
+-    <group name="Swing">
+-      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+-      </item>
+-      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+-        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+-        <initial-values>
+-          <property name="text" value="Button" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="RadioButton" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="CheckBox" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="Label" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+-          <preferred-size width="-1" height="20" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+-      </item>
+-    </group>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/dbnavigator.xml
+===================================================================
+diff --git a/.idea/dbnavigator.xml b/.idea/dbnavigator.xml
+deleted file mode 100644
+--- a/.idea/dbnavigator.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ /dev/null	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
+@@ -1,458 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="DBNavigator.Project.DataEditorManager">
+-    <record-view-column-sorting-type value="BY_INDEX" />
+-    <value-preview-text-wrapping value="true" />
+-    <value-preview-pinned value="false" />
+-  </component>
+-  <component name="DBNavigator.Project.DataExportManager">
+-    <export-instructions>
+-      <create-header value="true" />
+-      <friendly-headers value="false" />
+-      <quote-values-containing-separator value="true" />
+-      <quote-all-values value="false" />
+-      <value-separator value="" />
+-      <file-name value="" />
+-      <file-location value="" />
+-      <scope value="GLOBAL" />
+-      <destination value="FILE" />
+-      <format value="EXCEL" />
+-      <charset value="windows-1251" />
+-    </export-instructions>
+-  </component>
+-  <component name="DBNavigator.Project.DatabaseBrowserManager">
+-    <autoscroll-to-editor value="false" />
+-    <autoscroll-from-editor value="true" />
+-    <show-object-properties value="true" />
+-    <loaded-nodes />
+-  </component>
+-  <component name="DBNavigator.Project.DatabaseFileManager">
+-    <open-files />
+-  </component>
+-  <component name="DBNavigator.Project.EditorStateManager">
+-    <last-used-providers />
+-  </component>
+-  <component name="DBNavigator.Project.ExecutionManager">
+-    <retain-sticky-names value="false" />
+-  </component>
+-  <component name="DBNavigator.Project.MethodExecutionManager">
+-    <method-browser />
+-    <execution-history>
+-      <group-entries value="true" />
+-      <execution-inputs />
+-    </execution-history>
+-    <argument-values-cache />
+-  </component>
+-  <component name="DBNavigator.Project.ObjectDependencyManager">
+-    <last-used-dependency-type value="INCOMING" />
+-  </component>
+-  <component name="DBNavigator.Project.ObjectQuickFilterManager">
+-    <last-used-operator value="EQUAL" />
+-    <filters />
+-  </component>
+-  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+-    <recently-used-interfaces />
+-  </component>
+-  <component name="DBNavigator.Project.Settings">
+-    <connections />
+-    <browser-settings>
+-      <general>
+-        <display-mode value="TABBED" />
+-        <navigation-history-size value="100" />
+-        <show-object-details value="false" />
+-      </general>
+-      <filters>
+-        <object-type-filter>
+-          <object-type name="SCHEMA" enabled="true" />
+-          <object-type name="USER" enabled="true" />
+-          <object-type name="ROLE" enabled="true" />
+-          <object-type name="PRIVILEGE" enabled="true" />
+-          <object-type name="CHARSET" enabled="true" />
+-          <object-type name="TABLE" enabled="true" />
+-          <object-type name="VIEW" enabled="true" />
+-          <object-type name="MATERIALIZED_VIEW" enabled="true" />
+-          <object-type name="NESTED_TABLE" enabled="true" />
+-          <object-type name="COLUMN" enabled="true" />
+-          <object-type name="INDEX" enabled="true" />
+-          <object-type name="CONSTRAINT" enabled="true" />
+-          <object-type name="DATASET_TRIGGER" enabled="true" />
+-          <object-type name="DATABASE_TRIGGER" enabled="true" />
+-          <object-type name="SYNONYM" enabled="true" />
+-          <object-type name="SEQUENCE" enabled="true" />
+-          <object-type name="PROCEDURE" enabled="true" />
+-          <object-type name="FUNCTION" enabled="true" />
+-          <object-type name="PACKAGE" enabled="true" />
+-          <object-type name="TYPE" enabled="true" />
+-          <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+-          <object-type name="ARGUMENT" enabled="true" />
+-          <object-type name="DIMENSION" enabled="true" />
+-          <object-type name="CLUSTER" enabled="true" />
+-          <object-type name="DBLINK" enabled="true" />
+-        </object-type-filter>
+-      </filters>
+-      <sorting>
+-        <object-type name="COLUMN" sorting-type="NAME" />
+-        <object-type name="FUNCTION" sorting-type="NAME" />
+-        <object-type name="PROCEDURE" sorting-type="NAME" />
+-        <object-type name="ARGUMENT" sorting-type="POSITION" />
+-      </sorting>
+-      <default-editors>
+-        <object-type name="VIEW" editor-type="SELECTION" />
+-        <object-type name="PACKAGE" editor-type="SELECTION" />
+-        <object-type name="TYPE" editor-type="SELECTION" />
+-      </default-editors>
+-    </browser-settings>
+-    <navigation-settings>
+-      <lookup-filters>
+-        <lookup-objects>
+-          <object-type name="SCHEMA" enabled="true" />
+-          <object-type name="USER" enabled="false" />
+-          <object-type name="ROLE" enabled="false" />
+-          <object-type name="PRIVILEGE" enabled="false" />
+-          <object-type name="CHARSET" enabled="false" />
+-          <object-type name="TABLE" enabled="true" />
+-          <object-type name="VIEW" enabled="true" />
+-          <object-type name="MATERIALIZED VIEW" enabled="true" />
+-          <object-type name="INDEX" enabled="true" />
+-          <object-type name="CONSTRAINT" enabled="true" />
+-          <object-type name="DATASET TRIGGER" enabled="true" />
+-          <object-type name="DATABASE TRIGGER" enabled="true" />
+-          <object-type name="SYNONYM" enabled="false" />
+-          <object-type name="SEQUENCE" enabled="true" />
+-          <object-type name="PROCEDURE" enabled="true" />
+-          <object-type name="FUNCTION" enabled="true" />
+-          <object-type name="PACKAGE" enabled="true" />
+-          <object-type name="TYPE" enabled="true" />
+-          <object-type name="DIMENSION" enabled="false" />
+-          <object-type name="CLUSTER" enabled="false" />
+-          <object-type name="DBLINK" enabled="true" />
+-        </lookup-objects>
+-        <force-database-load value="false" />
+-        <prompt-connection-selection value="true" />
+-        <prompt-schema-selection value="true" />
+-      </lookup-filters>
+-    </navigation-settings>
+-    <dataset-grid-settings>
+-      <general>
+-        <enable-zooming value="true" />
+-        <enable-column-tooltip value="true" />
+-      </general>
+-      <sorting>
+-        <nulls-first value="true" />
+-        <max-sorting-columns value="4" />
+-      </sorting>
+-      <tracking-columns>
+-        <columnNames value="" />
+-        <visible value="true" />
+-        <editable value="false" />
+-      </tracking-columns>
+-    </dataset-grid-settings>
+-    <dataset-editor-settings>
+-      <text-editor-popup>
+-        <active value="false" />
+-        <active-if-empty value="false" />
+-        <data-length-threshold value="100" />
+-        <popup-delay value="1000" />
+-      </text-editor-popup>
+-      <values-actions-popup>
+-        <show-popup-button value="true" />
+-        <element-count-threshold value="1000" />
+-        <data-length-threshold value="250" />
+-      </values-actions-popup>
+-      <general>
+-        <fetch-block-size value="100" />
+-        <fetch-timeout value="30" />
+-        <trim-whitespaces value="true" />
+-        <convert-empty-strings-to-null value="true" />
+-        <select-content-on-cell-edit value="true" />
+-        <large-value-preview-active value="true" />
+-      </general>
+-      <filters>
+-        <prompt-filter-dialog value="true" />
+-        <default-filter-type value="BASIC" />
+-      </filters>
+-      <qualified-text-editor text-length-threshold="300">
+-        <content-types>
+-          <content-type name="Text" enabled="true" />
+-          <content-type name="Properties" enabled="true" />
+-          <content-type name="XML" enabled="true" />
+-          <content-type name="DTD" enabled="true" />
+-          <content-type name="HTML" enabled="true" />
+-          <content-type name="XHTML" enabled="true" />
+-          <content-type name="Java" enabled="true" />
+-          <content-type name="SQL" enabled="true" />
+-          <content-type name="PL/SQL" enabled="true" />
+-          <content-type name="JSON" enabled="true" />
+-          <content-type name="JSON5" enabled="true" />
+-          <content-type name="Groovy" enabled="true" />
+-          <content-type name="AIDL" enabled="true" />
+-          <content-type name="YAML" enabled="true" />
+-          <content-type name="Manifest" enabled="true" />
+-        </content-types>
+-      </qualified-text-editor>
+-      <record-navigation>
+-        <navigation-target value="VIEWER" />
+-      </record-navigation>
+-    </dataset-editor-settings>
+-    <code-editor-settings>
+-      <general>
+-        <show-object-navigation-gutter value="false" />
+-        <show-spec-declaration-navigation-gutter value="true" />
+-        <enable-spellchecking value="true" />
+-        <enable-reference-spellchecking value="false" />
+-      </general>
+-      <confirmations>
+-        <save-changes value="false" />
+-        <revert-changes value="true" />
+-      </confirmations>
+-    </code-editor-settings>
+-    <code-completion-settings>
+-      <filters>
+-        <basic-filter>
+-          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="function" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+-          <filter-element type="OBJECT" id="schema" selected="true" />
+-          <filter-element type="OBJECT" id="role" selected="true" />
+-          <filter-element type="OBJECT" id="user" selected="true" />
+-          <filter-element type="OBJECT" id="privilege" selected="true" />
+-          <user-schema>
+-            <filter-element type="OBJECT" id="table" selected="true" />
+-            <filter-element type="OBJECT" id="view" selected="true" />
+-            <filter-element type="OBJECT" id="materialized view" selected="true" />
+-            <filter-element type="OBJECT" id="index" selected="true" />
+-            <filter-element type="OBJECT" id="constraint" selected="true" />
+-            <filter-element type="OBJECT" id="trigger" selected="true" />
+-            <filter-element type="OBJECT" id="synonym" selected="false" />
+-            <filter-element type="OBJECT" id="sequence" selected="true" />
+-            <filter-element type="OBJECT" id="procedure" selected="true" />
+-            <filter-element type="OBJECT" id="function" selected="true" />
+-            <filter-element type="OBJECT" id="package" selected="true" />
+-            <filter-element type="OBJECT" id="type" selected="true" />
+-            <filter-element type="OBJECT" id="dimension" selected="true" />
+-            <filter-element type="OBJECT" id="cluster" selected="true" />
+-            <filter-element type="OBJECT" id="dblink" selected="true" />
+-          </user-schema>
+-          <public-schema>
+-            <filter-element type="OBJECT" id="table" selected="false" />
+-            <filter-element type="OBJECT" id="view" selected="false" />
+-            <filter-element type="OBJECT" id="materialized view" selected="false" />
+-            <filter-element type="OBJECT" id="index" selected="false" />
+-            <filter-element type="OBJECT" id="constraint" selected="false" />
+-            <filter-element type="OBJECT" id="trigger" selected="false" />
+-            <filter-element type="OBJECT" id="synonym" selected="false" />
+-            <filter-element type="OBJECT" id="sequence" selected="false" />
+-            <filter-element type="OBJECT" id="procedure" selected="false" />
+-            <filter-element type="OBJECT" id="function" selected="false" />
+-            <filter-element type="OBJECT" id="package" selected="false" />
+-            <filter-element type="OBJECT" id="type" selected="false" />
+-            <filter-element type="OBJECT" id="dimension" selected="false" />
+-            <filter-element type="OBJECT" id="cluster" selected="false" />
+-            <filter-element type="OBJECT" id="dblink" selected="false" />
+-          </public-schema>
+-          <any-schema>
+-            <filter-element type="OBJECT" id="table" selected="true" />
+-            <filter-element type="OBJECT" id="view" selected="true" />
+-            <filter-element type="OBJECT" id="materialized view" selected="true" />
+-            <filter-element type="OBJECT" id="index" selected="true" />
+-            <filter-element type="OBJECT" id="constraint" selected="true" />
+-            <filter-element type="OBJECT" id="trigger" selected="true" />
+-            <filter-element type="OBJECT" id="synonym" selected="true" />
+-            <filter-element type="OBJECT" id="sequence" selected="true" />
+-            <filter-element type="OBJECT" id="procedure" selected="true" />
+-            <filter-element type="OBJECT" id="function" selected="true" />
+-            <filter-element type="OBJECT" id="package" selected="true" />
+-            <filter-element type="OBJECT" id="type" selected="true" />
+-            <filter-element type="OBJECT" id="dimension" selected="true" />
+-            <filter-element type="OBJECT" id="cluster" selected="true" />
+-            <filter-element type="OBJECT" id="dblink" selected="true" />
+-          </any-schema>
+-        </basic-filter>
+-        <extended-filter>
+-          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="function" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
+-          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
+-          <filter-element type="OBJECT" id="schema" selected="true" />
+-          <filter-element type="OBJECT" id="user" selected="true" />
+-          <filter-element type="OBJECT" id="role" selected="true" />
+-          <filter-element type="OBJECT" id="privilege" selected="true" />
+-          <user-schema>
+-            <filter-element type="OBJECT" id="table" selected="true" />
+-            <filter-element type="OBJECT" id="view" selected="true" />
+-            <filter-element type="OBJECT" id="materialized view" selected="true" />
+-            <filter-element type="OBJECT" id="index" selected="true" />
+-            <filter-element type="OBJECT" id="constraint" selected="true" />
+-            <filter-element type="OBJECT" id="trigger" selected="true" />
+-            <filter-element type="OBJECT" id="synonym" selected="true" />
+-            <filter-element type="OBJECT" id="sequence" selected="true" />
+-            <filter-element type="OBJECT" id="procedure" selected="true" />
+-            <filter-element type="OBJECT" id="function" selected="true" />
+-            <filter-element type="OBJECT" id="package" selected="true" />
+-            <filter-element type="OBJECT" id="type" selected="true" />
+-            <filter-element type="OBJECT" id="dimension" selected="true" />
+-            <filter-element type="OBJECT" id="cluster" selected="true" />
+-            <filter-element type="OBJECT" id="dblink" selected="true" />
+-          </user-schema>
+-          <public-schema>
+-            <filter-element type="OBJECT" id="table" selected="true" />
+-            <filter-element type="OBJECT" id="view" selected="true" />
+-            <filter-element type="OBJECT" id="materialized view" selected="true" />
+-            <filter-element type="OBJECT" id="index" selected="true" />
+-            <filter-element type="OBJECT" id="constraint" selected="true" />
+-            <filter-element type="OBJECT" id="trigger" selected="true" />
+-            <filter-element type="OBJECT" id="synonym" selected="true" />
+-            <filter-element type="OBJECT" id="sequence" selected="true" />
+-            <filter-element type="OBJECT" id="procedure" selected="true" />
+-            <filter-element type="OBJECT" id="function" selected="true" />
+-            <filter-element type="OBJECT" id="package" selected="true" />
+-            <filter-element type="OBJECT" id="type" selected="true" />
+-            <filter-element type="OBJECT" id="dimension" selected="true" />
+-            <filter-element type="OBJECT" id="cluster" selected="true" />
+-            <filter-element type="OBJECT" id="dblink" selected="true" />
+-          </public-schema>
+-          <any-schema>
+-            <filter-element type="OBJECT" id="table" selected="true" />
+-            <filter-element type="OBJECT" id="view" selected="true" />
+-            <filter-element type="OBJECT" id="materialized view" selected="true" />
+-            <filter-element type="OBJECT" id="index" selected="true" />
+-            <filter-element type="OBJECT" id="constraint" selected="true" />
+-            <filter-element type="OBJECT" id="trigger" selected="true" />
+-            <filter-element type="OBJECT" id="synonym" selected="true" />
+-            <filter-element type="OBJECT" id="sequence" selected="true" />
+-            <filter-element type="OBJECT" id="procedure" selected="true" />
+-            <filter-element type="OBJECT" id="function" selected="true" />
+-            <filter-element type="OBJECT" id="package" selected="true" />
+-            <filter-element type="OBJECT" id="type" selected="true" />
+-            <filter-element type="OBJECT" id="dimension" selected="true" />
+-            <filter-element type="OBJECT" id="cluster" selected="true" />
+-            <filter-element type="OBJECT" id="dblink" selected="true" />
+-          </any-schema>
+-        </extended-filter>
+-      </filters>
+-      <sorting enabled="true">
+-        <sorting-element type="RESERVED_WORD" id="keyword" />
+-        <sorting-element type="RESERVED_WORD" id="datatype" />
+-        <sorting-element type="OBJECT" id="column" />
+-        <sorting-element type="OBJECT" id="table" />
+-        <sorting-element type="OBJECT" id="view" />
+-        <sorting-element type="OBJECT" id="materialized view" />
+-        <sorting-element type="OBJECT" id="index" />
+-        <sorting-element type="OBJECT" id="constraint" />
+-        <sorting-element type="OBJECT" id="trigger" />
+-        <sorting-element type="OBJECT" id="synonym" />
+-        <sorting-element type="OBJECT" id="sequence" />
+-        <sorting-element type="OBJECT" id="procedure" />
+-        <sorting-element type="OBJECT" id="function" />
+-        <sorting-element type="OBJECT" id="package" />
+-        <sorting-element type="OBJECT" id="type" />
+-        <sorting-element type="OBJECT" id="dimension" />
+-        <sorting-element type="OBJECT" id="cluster" />
+-        <sorting-element type="OBJECT" id="dblink" />
+-        <sorting-element type="OBJECT" id="schema" />
+-        <sorting-element type="OBJECT" id="role" />
+-        <sorting-element type="OBJECT" id="user" />
+-        <sorting-element type="RESERVED_WORD" id="function" />
+-        <sorting-element type="RESERVED_WORD" id="parameter" />
+-      </sorting>
+-      <format>
+-        <enforce-code-style-case value="true" />
+-      </format>
+-    </code-completion-settings>
+-    <execution-engine-settings>
+-      <statement-execution>
+-        <fetch-block-size value="100" />
+-        <execution-timeout value="20" />
+-        <debug-execution-timeout value="600" />
+-        <focus-result value="false" />
+-        <prompt-execution value="false" />
+-      </statement-execution>
+-      <script-execution>
+-        <command-line-interfaces />
+-        <execution-timeout value="300" />
+-      </script-execution>
+-      <method-execution>
+-        <execution-timeout value="30" />
+-        <debug-execution-timeout value="600" />
+-        <parameter-history-size value="10" />
+-      </method-execution>
+-    </execution-engine-settings>
+-    <operation-settings>
+-      <transactions>
+-        <uncommitted-changes>
+-          <on-project-close value="ASK" />
+-          <on-disconnect value="ASK" />
+-          <on-autocommit-toggle value="ASK" />
+-        </uncommitted-changes>
+-        <multiple-uncommitted-changes>
+-          <on-commit value="ASK" />
+-          <on-rollback value="ASK" />
+-        </multiple-uncommitted-changes>
+-      </transactions>
+-      <session-browser>
+-        <disconnect-session value="ASK" />
+-        <kill-session value="ASK" />
+-        <reload-on-filter-change value="false" />
+-      </session-browser>
+-      <compiler>
+-        <compile-type value="KEEP" />
+-        <compile-dependencies value="ASK" />
+-        <always-show-controls value="false" />
+-      </compiler>
+-      <debugger>
+-        <debugger-type value="ASK" />
+-        <use-generic-runners value="true" />
+-      </debugger>
+-    </operation-settings>
+-    <ddl-file-settings>
+-      <extensions>
+-        <mapping file-type-id="VIEW" extensions="vw" />
+-        <mapping file-type-id="TRIGGER" extensions="trg" />
+-        <mapping file-type-id="PROCEDURE" extensions="prc" />
+-        <mapping file-type-id="FUNCTION" extensions="fnc" />
+-        <mapping file-type-id="PACKAGE" extensions="pkg" />
+-        <mapping file-type-id="PACKAGE_SPEC" extensions="pks" />
+-        <mapping file-type-id="PACKAGE_BODY" extensions="pkb" />
+-        <mapping file-type-id="TYPE" extensions="tpe" />
+-        <mapping file-type-id="TYPE_SPEC" extensions="tps" />
+-        <mapping file-type-id="TYPE_BODY" extensions="tpb" />
+-      </extensions>
+-      <general>
+-        <lookup-ddl-files value="true" />
+-        <create-ddl-files value="false" />
+-        <synchronize-ddl-files value="true" />
+-        <use-qualified-names value="false" />
+-        <make-scripts-rerunnable value="true" />
+-      </general>
+-    </ddl-file-settings>
+-    <general-settings>
+-      <regional-settings>
+-        <date-format value="MEDIUM" />
+-        <number-format value="UNGROUPED" />
+-        <locale value="SYSTEM_DEFAULT" />
+-        <use-custom-formats value="false" />
+-      </regional-settings>
+-      <environment>
+-        <environment-types>
+-          <environment-type id="development" name="Development" description="Development environment" color="-2430209/-12296320" readonly-code="false" readonly-data="false" />
+-          <environment-type id="integration" name="Integration" description="Integration environment" color="-2621494/-12163514" readonly-code="true" readonly-data="false" />
+-          <environment-type id="production" name="Production" description="Productive environment" color="-11574/-10271420" readonly-code="true" readonly-data="true" />
+-          <environment-type id="other" name="Other" description="" color="-1576/-10724543" readonly-code="false" readonly-data="false" />
+-        </environment-types>
+-        <visibility-settings>
+-          <connection-tabs value="true" />
+-          <dialog-headers value="true" />
+-          <object-editor-tabs value="true" />
+-          <script-editor-tabs value="false" />
+-          <execution-result-tabs value="true" />
+-        </visibility-settings>
+-      </environment>
+-    </general-settings>
+-  </component>
+-  <component name="DBNavigator.Project.StatementExecutionManager">
+-    <execution-variables />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/TAU_THE_INTERNET_JENKINS.iml
+===================================================================
+diff --git a/.idea/TAU_THE_INTERNET_JENKINS.iml b/.idea/TAU_THE_INTERNET_JENKINS.iml
+deleted file mode 100644
+--- a/.idea/TAU_THE_INTERNET_JENKINS.iml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ /dev/null	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
+@@ -1,2 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: testng.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/testng.xml b/testng.xml
+deleted file mode 100644
+--- a/testng.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ /dev/null	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
+@@ -1,94 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+-<suite name="All Test Suite">
+-    <test verbose="2" preserve-order="true" name="C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS">
+-        <classes>
+-            <class name="alerts.AlertTests">
+-                <methods>
+-                    <include name="testAcceptAlert"/>
+-                    <include name="testTextFromConfirm"/>
+-                    <include name="testSetPromptInput"/>
+-                </methods>
+-            </class>
+-            <class name="dropdown.DropdownTests">
+-                <methods>
+-                    <include name="testSelectOption"/>
+-                </methods>
+-            </class>
+-            <class name="frames.FrameTests">
+-                <methods>
+-                    <include name="testWysiwyg"/>
+-                    <include name="testMiddleAndBottomFrames"/>
+-                </methods>
+-            </class>
+-            <class name="home.HomeTests">
+-                <methods>
+-                    <include name="testTitle"/>
+-                    <include name="testAllLinksAmount"/>
+-                    <include name="testUlLinksAmount"/>
+-                </methods>
+-            </class>
+-            <class name="hover.HoverTests">
+-                <methods>
+-                    <include name="testHoverUser1"/>
+-                </methods>
+-            </class>
+-            <class name="javascript.JavaScripTests">
+-                <methods>
+-                    <include name="testScrollToTable"/>
+-                    <include name="testScrollToFifthParagraph"/>
+-                </methods>
+-            </class>
+-            <class name="keys.HorizontalSliderTests">
+-                <methods>
+-                    <include name="testSlider"/>
+-                </methods>
+-            </class>
+-            <class name="keys.KeysTests">
+-                <methods>
+-                    <include name="testBackspace"/>
+-                    <include name="testChords"/>
+-                    <include name="testPi"/>
+-                </methods>
+-            </class>
+-            <class name="login.ForgotPasswordTests">
+-                <methods>
+-                    <include name="testForgotPasswordMessage"/>
+-                </methods>
+-            </class>
+-            <class name="login.LoginTests">
+-                <methods>
+-                    <include name="testSuccessfulLogin"/>
+-                </methods>
+-            </class>
+-            <class name="modals.ModalTests">
+-                <methods>
+-                    <include name="testModal"/>
+-                </methods>
+-            </class>
+-            <class name="navigation.NavigationTests">
+-                <methods>
+-                    <include name="testNavigator"/>
+-                    <include name="testSwitchTab"/>
+-                    <include name="testCtrlClick"/>
+-                </methods>
+-            </class>
+-            <class name="shifting.ShiftingContentTests">
+-                <methods>
+-                    <include name="testMenuListSize"/>
+-                </methods>
+-            </class>
+-            <class name="upload.FileUploadTests">
+-                <methods>
+-                    <include name="testFileUpload"/>
+-                </methods>
+-            </class>
+-            <class name="wait.WaitTests">
+-                <methods>
+-                    <include name="testWaitUntilHidden"/>
+-                    <include name="testWaitUntilDisplayed"/>
+-                </methods>
+-            </class>
+-        </classes>
+-    </test>
+-</suite>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_webjars_jquery_3_5_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml b/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml
+new file mode 100644
+--- /dev/null	(date 1620375601650)
++++ b/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml	(date 1620375601650)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.webjars:jquery:3.5.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.5.1/jquery-3.5.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.5.1/jquery-3.5.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jquery/3.5.1/jquery-3.5.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_testng_testng_7_4_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_testng_testng_7_4_0.xml b/.idea/libraries/Maven__org_testng_testng_7_4_0.xml
+new file mode 100644
+--- /dev/null	(date 1620375601633)
++++ b/.idea/libraries/Maven__org_testng_testng_7_4_0.xml	(date 1620375601633)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.testng:testng:7.4.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.4.0/testng-7.4.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.4.0/testng-7.4.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.4.0/testng-7.4.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ b/.idea/vcs.xml	(date 1620375601687)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" project-jdk-name=\"corretto-1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ b/.idea/misc.xml	(date 1620375601669)
+@@ -1,6 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="MavenProjectsManager">
+     <option name="originalFiles">
+       <list>
+@@ -8,7 +7,5 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601574)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml	(date 1620375601574)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601556)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml	(date 1620375601556)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-opera-driver:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601613)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml	(date 1620375601613)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601592)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml	(date 1620375601592)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-safari-driver:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601503)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml	(date 1620375601503)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601488)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml	(date 1620375601488)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-edge-driver:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601535)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml	(date 1620375601535)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-java:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601519)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml	(date 1620375601519)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-ie-driver:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml b/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml
+new file mode 100644
+--- /dev/null	(date 1620375601441)
++++ b/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml	(date 1620375601441)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml b/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml
+new file mode 100644
+--- /dev/null	(date 1620375601423)
++++ b/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml	(date 1620375601423)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.checkerframework:checker-compat-qual:2.0.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601471)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml	(date 1620375601471)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml
+new file mode 100644
+--- /dev/null	(date 1620375601456)
++++ b/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml	(date 1620375601456)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.seleniumhq.selenium:selenium-api:3.141.59">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml b/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml
+new file mode 100644
+--- /dev/null	(date 1620375601320)
++++ b/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml	(date 1620375601320)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.squareup.okio:okio:1.14.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.14.0/okio-1.14.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.14.0/okio-1.14.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml b/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml
+new file mode 100644
+--- /dev/null	(date 1620375601267)
++++ b/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml	(date 1620375601267)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.squareup.okhttp3:okhttp:3.11.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml b/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml
+new file mode 100644
+--- /dev/null	(date 1620375601407)
++++ b/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml	(date 1620375601407)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.commons:commons-exec:1.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"58260cb2-be4e-4f05-b377-4b891e5d2569\" name=\"Default Changelist\" comment=\"Bug fixed + Headless\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedIndex\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1qeLOpJpFZfGG0a2EaJOHXloCWv\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../IDEA/STORMNET/HomeWork_Students\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"run.code.analysis.last.selected.profile\" value=\"pProject Default\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"vcs.Perforce\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\IdeaProjects\\STORMNET\\TAU_THE_INTERNET_JENKINS\\src\\test\\resources\" />\r\n      <recent name=\"C:\\IdeaProjects\\STORMNET\\TAU_THE_INTERNET_JENKINS\\src\\main\\resources\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"base\" />\r\n      <recent name=\"pages\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)\">\r\n    <configuration name=\"AlertTests.testTextFromConfirm\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TAU_THE_INTERNET\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"alerts.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"alerts\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"alerts.AlertTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"testTextFromConfirm\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TAU_THE_INTERNET\" />\r\n      <option name=\"SUITE_NAME\" value=\"$PROJECT_DIR$/testng.xml\" />\r\n      <option name=\"TEST_OBJECT\" value=\"SUITE\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NavigationTests.testCtrlClick\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TAU_THE_INTERNET\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"navigation.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"navigation\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"navigation.NavigationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"testCtrlClick\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NavigationTests.testNavigator\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TAU_THE_INTERNET\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"navigation.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"navigation\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"navigation.NavigationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"testNavigator\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NavigationTests.testSwitchTab\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TAU_THE_INTERNET\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"navigation.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"navigation\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"navigation.NavigationTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"testSwitchTab\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)\" />\r\n        <item itemvalue=\"TestNG.NavigationTests.testCtrlClick\" />\r\n        <item itemvalue=\"TestNG.AlertTests.testTextFromConfirm\" />\r\n        <item itemvalue=\"TestNG.NavigationTests.testSwitchTab\" />\r\n        <item itemvalue=\"TestNG.NavigationTests.testNavigator\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"58260cb2-be4e-4f05-b377-4b891e5d2569\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1617435082558</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1617435082558</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial commit\">\r\n      <created>1619182950290</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619182950290</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit\">\r\n      <created>1619456433096</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619456433096</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Test methods added\">\r\n      <created>1619456475073</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619456475073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Test methods added\">\r\n      <created>1619456570820</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619456570820</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Test methods added\">\r\n      <created>1619602808970</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619602808970</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Test methods added too\">\r\n      <created>1619602841958</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619602841958</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Page classes changed\">\r\n      <created>1619603705794</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619603705794</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Page classes changed\">\r\n      <created>1619603724227</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619603724227</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Refined and completed for TestNG run\">\r\n      <created>1620218850255</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620218850255</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Final modifier added\">\r\n      <created>1620219596489</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620219596489</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Ready for Jenkins\">\r\n      <created>1620332601694</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620332601694</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Ready for Jenkins fixed\">\r\n      <created>1620332860388</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620332860388</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Bug fixed + Headless\">\r\n      <created>1620333619877</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1620333619877</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"14\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial commit\" />\r\n    <MESSAGE value=\"Test methods added\" />\r\n    <MESSAGE value=\"Test methods added too\" />\r\n    <MESSAGE value=\"Page classes changed\" />\r\n    <MESSAGE value=\"Refined and completed for TestNG run\" />\r\n    <MESSAGE value=\"Final modifier added\" />\r\n    <MESSAGE value=\"Ready for Jenkins\" />\r\n    <MESSAGE value=\"Ready for Jenkins fixed\" />\r\n    <MESSAGE value=\"Bug fixed + Headless\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Bug fixed + Headless\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java</url>\r\n          <line>21</line>\r\n          <option name=\"timeStamp\" value=\"33\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java</url>\r\n          <line>22</line>\r\n          <option name=\"timeStamp\" value=\"34\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/keys/KeyTestsEventFiring.java</url>\r\n          <line>21</line>\r\n          <option name=\"timeStamp\" value=\"36\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/keys/KeyTestsEventFiring.java</url>\r\n          <line>14</line>\r\n          <option name=\"timeStamp\" value=\"37\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ b/.idea/workspace.xml	(date 1620377512738)
+@@ -4,128 +4,77 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="Bug fixed + Headless" />
++    <list default="true" id="713a6288-75a0-4c43-9474-afcf13734260" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_6.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_24_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/TAU_THE_INTERNET_JENKINS_ALLURE.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/TAU_THE_INTERNET_JENKINS.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/codeStyles" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+-  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProblemsViewState">
+-    <option name="selectedIndex" value="2" />
+-  </component>
+-  <component name="ProjectId" id="1qeLOpJpFZfGG0a2EaJOHXloCWv" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectId" id="1sCTRA1J5mbUlwhSSEckSkU1Yyv" />
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
+-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IDEA/STORMNET/HomeWork_Students" />
+-    <property name="project.structure.last.edited" value="Project" />
+-    <property name="project.structure.proportion" value="0.15" />
+-    <property name="project.structure.side.proportion" value="0.2" />
+-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+-    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+-  </component>
+-  <component name="RecentsManager">
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\IdeaProjects\STORMNET\TAU_THE_INTERNET_JENKINS\src\test\resources" />
+-      <recent name="C:\IdeaProjects\STORMNET\TAU_THE_INTERNET_JENKINS\src\main\resources" />
+-    </key>
+-    <key name="CopyClassDialog.RECENTS_KEY">
+-      <recent name="base" />
+-      <recent name="pages" />
+-    </key>
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
++    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+   </component>
+-  <component name="RunManager" selected="TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)">
+-    <configuration name="AlertTests.testTextFromConfirm" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="TAU_THE_INTERNET" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="alerts.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="alerts" />
+-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+-      <option name="METHOD_NAME" value="testTextFromConfirm" />
+-      <option name="TEST_OBJECT" value="METHOD" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="TAU_THE_INTERNET" />
++  <component name="RunManager">
++    <configuration name="C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS_ALLURE/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="TAU_THE_INTERNET_JENKINS_ALLURE" />
+       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+       <option name="TEST_OBJECT" value="SUITE" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="NavigationTests.testCtrlClick" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="TAU_THE_INTERNET" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="navigation.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="navigation" />
+-      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+-      <option name="METHOD_NAME" value="testCtrlClick" />
+-      <option name="TEST_OBJECT" value="METHOD" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="NavigationTests.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="TAU_THE_INTERNET" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="navigation.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="navigation" />
+-      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+-      <option name="METHOD_NAME" value="testNavigator" />
+-      <option name="TEST_OBJECT" value="METHOD" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="NavigationTests.testSwitchTab" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="TAU_THE_INTERNET" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="navigation.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="navigation" />
+-      <option name="MAIN_CLASS_NAME" value="navigation.NavigationTests" />
+-      <option name="METHOD_NAME" value="testSwitchTab" />
+-      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+@@ -134,115 +83,19 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS/testng.xml (1)" />
+-        <item itemvalue="TestNG.NavigationTests.testCtrlClick" />
+-        <item itemvalue="TestNG.AlertTests.testTextFromConfirm" />
+-        <item itemvalue="TestNG.NavigationTests.testSwitchTab" />
+-        <item itemvalue="TestNG.NavigationTests.testNavigator" />
++        <item itemvalue="TestNG.C:/Users/USER/Google Drive/TAU_THE_INTERNET_JENKINS_ALLURE/testng.xml" />
+       </list>
+     </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="58260cb2-be4e-4f05-b377-4b891e5d2569" name="Default Changelist" comment="" />
+-      <created>1617435082558</created>
++      <changelist id="713a6288-75a0-4c43-9474-afcf13734260" name="Default Changelist" comment="" />
++      <created>1620375564433</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1617435082558</updated>
+-    </task>
+-    <task id="LOCAL-00001" summary="Initial commit">
+-      <created>1619182950290</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619182950290</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="Initial commit">
+-      <created>1619456433096</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619456433096</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="Test methods added">
+-      <created>1619456475073</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619456475073</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="Test methods added">
+-      <created>1619456570820</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619456570820</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="Test methods added">
+-      <created>1619602808970</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619602808970</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="Test methods added too">
+-      <created>1619602841958</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619602841958</updated>
++      <updated>1620375564433</updated>
+     </task>
+-    <task id="LOCAL-00007" summary="Page classes changed">
+-      <created>1619603705794</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619603705794</updated>
+-    </task>
+-    <task id="LOCAL-00008" summary="Page classes changed">
+-      <created>1619603724227</created>
+-      <option name="number" value="00008" />
+-      <option name="presentableId" value="LOCAL-00008" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1619603724227</updated>
+-    </task>
+-    <task id="LOCAL-00009" summary="Refined and completed for TestNG run">
+-      <created>1620218850255</created>
+-      <option name="number" value="00009" />
+-      <option name="presentableId" value="LOCAL-00009" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1620218850255</updated>
+-    </task>
+-    <task id="LOCAL-00010" summary="Final modifier added">
+-      <created>1620219596489</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1620219596489</updated>
+-    </task>
+-    <task id="LOCAL-00011" summary="Ready for Jenkins">
+-      <created>1620332601694</created>
+-      <option name="number" value="00011" />
+-      <option name="presentableId" value="LOCAL-00011" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1620332601694</updated>
+-    </task>
+-    <task id="LOCAL-00012" summary="Ready for Jenkins fixed">
+-      <created>1620332860388</created>
+-      <option name="number" value="00012" />
+-      <option name="presentableId" value="LOCAL-00012" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1620332860388</updated>
+-    </task>
+-    <task id="LOCAL-00013" summary="Bug fixed + Headless">
+-      <created>1620333619877</created>
+-      <option name="number" value="00013" />
+-      <option name="presentableId" value="LOCAL-00013" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1620333619877</updated>
+-    </task>
+-    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -250,61 +103,10 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="master" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
++            <State />
+           </value>
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Initial commit" />
+-    <MESSAGE value="Test methods added" />
+-    <MESSAGE value="Test methods added too" />
+-    <MESSAGE value="Page classes changed" />
+-    <MESSAGE value="Refined and completed for TestNG run" />
+-    <MESSAGE value="Final modifier added" />
+-    <MESSAGE value="Ready for Jenkins" />
+-    <MESSAGE value="Ready for Jenkins fixed" />
+-    <MESSAGE value="Bug fixed + Headless" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed + Headless" />
+-  </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java</url>
+-          <line>21</line>
+-          <option name="timeStamp" value="33" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/test/java/dropdown/DropdownTests.java</url>
+-          <line>22</line>
+-          <option name="timeStamp" value="34" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/test/java/keys/KeyTestsEventFiring.java</url>
+-          <line>21</line>
+-          <option name="timeStamp" value="36" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/test/java/keys/KeyTestsEventFiring.java</url>
+-          <line>14</line>
+-          <option name="timeStamp" value="37" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml b/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml
+new file mode 100644
+--- /dev/null	(date 1620375601377)
++++ b/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml	(date 1620375601377)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: net.bytebuddy:byte-buddy:1.8.15">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml b/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml
+new file mode 100644
+--- /dev/null	(date 1620376276126)
++++ b/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml	(date 1620376276126)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.slf4j:slf4j-simple:1.7.30">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml b/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml
+new file mode 100644
+--- /dev/null	(date 1620375601175)
++++ b/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml	(date 1620375601175)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.errorprone:error_prone_annotations:2.1.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml b/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml
+new file mode 100644
+--- /dev/null	(date 1620375601147)
++++ b/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml	(date 1620375601147)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.code.findbugs:jsr305:1.3.9">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml b/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml
+new file mode 100644
+--- /dev/null	(date 1620376276094)
++++ b/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml	(date 1620376276094)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.jooq:joor-java-8:0.9.13">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml b/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml
+new file mode 100644
+--- /dev/null	(date 1620375601245)
++++ b/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml	(date 1620375601245)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.j2objc:j2objc-annotations:1.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml
+new file mode 100644
+--- /dev/null	(date 1620376275986)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml	(date 1620376275986)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml b/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml
+new file mode 100644
+--- /dev/null	(date 1620375601226)
++++ b/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml	(date 1620375601226)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.guava:guava:25.0-jre">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml b/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml
+new file mode 100644
+--- /dev/null	(date 1620376276110)
++++ b/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml	(date 1620376276110)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.slf4j:slf4j-api:1.7.30">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1620375600989)
++++ b/.idea/modules.xml	(date 1620375600989)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/TAU_THE_INTERNET_JENKINS_ALLURE.iml" filepath="$PROJECT_DIR$/TAU_THE_INTERNET_JENKINS_ALLURE.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: TAU_THE_INTERNET_JENKINS_ALLURE.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TAU_THE_INTERNET_JENKINS_ALLURE.iml b/TAU_THE_INTERNET_JENKINS_ALLURE.iml
+new file mode 100644
+--- /dev/null	(date 1620376275964)
++++ b/TAU_THE_INTERNET_JENKINS_ALLURE.iml	(date 1620376275964)
+@@ -0,0 +1,49 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-edge-driver:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-ie-driver:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-opera-driver:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59" level="project" />
++    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.8.15" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.commons:commons-exec:1.3" level="project" />
++    <orderEntry type="library" name="Maven: com.google.guava:guava:25.0-jre" level="project" />
++    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
++    <orderEntry type="library" name="Maven: org.checkerframework:checker-compat-qual:2.0.0" level="project" />
++    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" level="project" />
++    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
++    <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
++    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" level="project" />
++    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.14.0" level="project" />
++    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:7.4.0" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.78" level="project" />
++    <orderEntry type="library" scope="TEST" name="Maven: org.webjars:jquery:3.5.1" level="project" />
++    <orderEntry type="library" name="Maven: io.qameta.allure:allure-testng:2.13.6" level="project" />
++    <orderEntry type="library" name="Maven: io.qameta.allure:allure-java-commons:2.13.6" level="project" />
++    <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.13.6" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.2" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.tika:tika-core:1.24.1" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jooq:joor-java-8:0.9.13" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.30" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_tika_tika_core_1_24_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_apache_tika_tika_core_1_24_1.xml b/.idea/libraries/Maven__org_apache_tika_tika_core_1_24_1.xml
+new file mode 100644
+--- /dev/null	(date 1620376276078)
++++ b/.idea/libraries/Maven__org_apache_tika_tika_core_1_24_1.xml	(date 1620376276078)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.tika:tika-core:1.24.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_beust_jcommander_1_78.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_beust_jcommander_1_78.xml b/.idea/libraries/Maven__com_beust_jcommander_1_78.xml
+new file mode 100644
+--- /dev/null	(date 1620375601114)
++++ b/.idea/libraries/Maven__com_beust_jcommander_1_78.xml	(date 1620375601114)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.beust:jcommander:1.78">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.78/jcommander-1.78.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.78/jcommander-1.78-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.78/jcommander-1.78-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_qameta_allure_allure_model_2_13_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_6.xml b/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_6.xml
+new file mode 100644
+--- /dev/null	(date 1620376276047)
++++ b/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_6.xml	(date 1620376276047)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.qameta.allure:allure-model:2.13.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-model/2.13.6/allure-model-2.13.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-model/2.13.6/allure-model-2.13.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-model/2.13.6/allure-model-2.13.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_6.xml b/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_6.xml
+new file mode 100644
+--- /dev/null	(date 1620376276062)
++++ b/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_6.xml	(date 1620376276062)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.qameta.allure:allure-testng:2.13.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-testng/2.13.6/allure-testng-2.13.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-testng/2.13.6/allure-testng-2.13.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-testng/2.13.6/allure-testng-2.13.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml
+new file mode 100644
+--- /dev/null	(date 1620376276016)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml	(date 1620376276016)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_6.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_6.xml b/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_6.xml
+new file mode 100644
+--- /dev/null	(date 1620376276032)
++++ b/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_6.xml	(date 1620376276032)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: io.qameta.allure:allure-java-commons:2.13.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.13.6/allure-java-commons-2.13.6.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.13.6/allure-java-commons-2.13.6-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-java-commons/2.13.6/allure-java-commons-2.13.6-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml
+new file mode 100644
+--- /dev/null	(date 1620376276001)
++++ b/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml	(date 1620376276001)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>TAU_THE_INTERNET_JENKINS</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>8</maven.compiler.source>\r\n        <maven.compiler.target>8</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.seleniumhq.selenium</groupId>\r\n            <artifactId>selenium-java</artifactId>\r\n            <version>3.141.59</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.seleniumhq.selenium</groupId>\r\n            <artifactId>selenium-chrome-driver</artifactId>\r\n            <version>3.141.59</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.testng</groupId>\r\n            <artifactId>testng</artifactId>\r\n            <version>7.4.0</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n    </dependencies>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ b/pom.xml	(date 1620376324646)
+@@ -5,13 +5,18 @@
+     <modelVersion>4.0.0</modelVersion>
+ 
+     <groupId>org.example</groupId>
+-    <artifactId>TAU_THE_INTERNET_JENKINS</artifactId>
++    <artifactId>TAU_THE_INTERNET_JENKINS_ALLURE</artifactId>
+     <version>1.0-SNAPSHOT</version>
+ 
+     <properties>
+         <maven.compiler.source>8</maven.compiler.source>
+         <maven.compiler.target>8</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++        <!-- Allure -->
++        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
++        <java.version>1.8</java.version>
++        <aspectj.version>1.9.1</aspectj.version>
++        <allure.version>2.13.6</allure.version>
+     </properties>
+     <dependencies>
+         <dependency>
+@@ -30,5 +35,60 @@
+             <version>7.4.0</version>
+             <scope>test</scope>
+         </dependency>
+-    </dependencies>
++        <!-- Allure -->
++        <dependency>
++            <groupId>io.qameta.allure</groupId>
++            <artifactId>allure-testng</artifactId>
++            <version>${allure.version}</version>
++        </dependency>
++        <dependency>
++            <groupId>org.slf4j</groupId>
++            <artifactId>slf4j-simple</artifactId>
++            <version>1.7.30</version>
++        </dependency>
++    </dependencies>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-surefire-plugin</artifactId>
++                <version>2.22.2</version>
++                <configuration>
++                    <testFailureIgnore>false</testFailureIgnore>
++                    <argLine>
++                        -Dfile.encoding=UTF-8
++                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
++                    </argLine>
++                    <systemPropertyVariables>
++                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
++                    </systemPropertyVariables>
++                </configuration>
++                <dependencies>
++                    <dependency>
++                        <groupId>org.aspectj</groupId>
++                        <artifactId>aspectjweaver</artifactId>
++                        <version>${aspectj.version}</version>
++                    </dependency>
++                </dependencies>
++            </plugin>
++            <plugin>
++                <groupId>io.qameta.allure</groupId>
++                <artifactId>allure-maven</artifactId>
++                <version>2.10.0</version>
++                <configuration>
++                    <reportVersion>${allure.version}</reportVersion>
++                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
++                </configuration>
++            </plugin>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-compiler-plugin</artifactId>
++                <version>3.1</version>
++                <configuration>
++                    <source>1.8</source>
++                    <target>1.8</target>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
+ </project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"TAU_THE_INTERNET_JENKINS\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision fcfbfe28b28c068c06081ecc3f44fd5e6729951b)
++++ b/.idea/compiler.xml	(date 1620376368171)
+@@ -6,8 +6,11 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+-        <module name="TAU_THE_INTERNET_JENKINS" />
++        <module name="TAU_THE_INTERNET_JENKINS_ALLURE" />
+       </profile>
+     </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="TAU_THE_INTERNET_JENKINS_ALLURE" target="1.8" />
++    </bytecodeTargetLevel>
+   </component>
+ </project>
+\ No newline at end of file

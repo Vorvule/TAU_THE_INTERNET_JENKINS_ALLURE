@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TAU_THE_INTERNET_JENKINS" />
+        <module name="TAU_THE_INTERNET_JENKINS_ALLURE" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TAU_THE_INTERNET_JENKINS_ALLURE" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
